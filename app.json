@@ -16,7 +16,12 @@
       "API_ID": {
         "description": "Get this value from https://my.telegram.org",
         "value": "",
-        "required": true
+        "required": true 
+      },
+      "DURATION_LIMIT": {
+       "description": "Playout için Süre Sınırı (In Mins).. Example: 60",
+       "value": "180",
+       "required": true
       },
       "API_HASH": {
         "description": "Get this value from https://my.telegram.org",
