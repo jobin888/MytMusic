@@ -58,7 +58,7 @@ admin_20 : "Yönetici önbelleği başarıyla yeniden yüklendi."
 admin_21 : "Sırada karıştırılacak bir şey yok"
 admin_22 : "Karıştırılamadı.\n\nSırayı kontrol edin: /queue"
 admin_23 : "**Sıra Karıştırıldı: {0}**\n\nKarıştırılan sırayı kontrol edin: /queue"
-admin_24 : "**Kullanım:**\n/loop [enable/disable] veya [1-10 arası sayı]\n\n**Örnek:** /loop 5"
+admin_24 : "**Kullanım:**\n/tekrarla [enable/disable] veya [1-10 arası sayı]\n\n**Örnek:** /tekrarla 5"
 admin_25 : "Döngü, {0} tarafından **{1}** kez etkinleştirildi. Bot şimdi sesli sohbette çalmakta olan müziği **{1}** kez tekrarlayacak"
 admin_26 : "Döngü oynatma için lütfen 1-10 arasındaki sayıları kullanın"
 admin_27 : "Döngü Oynatma devre dışı bırakıldı"
@@ -66,7 +66,7 @@ admin_27 : "Döngü Oynatma devre dışı bırakıldı"
 # Bot 
 # Start
 start_1 : "Beni {0}'e davet ettiğiniz için teşekkürler.\n{1} çalışıyor.\n\nHerhangi bir yardım için destek grubumuza veya kanalımıza göz atın.."
-start_2 : "Merhaba, Benim adım {0}.\n\nBazı kullanışlı özelliklere sahip bir telegram müzik botuyum. Youtube, Spotify, Resso, AppleMusic , Soundcloud vb. Destekleyici platformlar\n\nBeni gruplarınıza eklemekten çekinmeyin."
+start_2 : "Merhaba, Benim adım MytMÜzikBot.\n\nBazı kullanışlı özelliklere sahip bir telegram müzik botuyum. Youtube, Spotify, Resso, AppleMusic , Soundcloud vb. Destekleyici platformlar\n\nBeni gruplarınıza eklemekten çekinmeyin."
 start_3 : "Hoş Geldiniz {0}\n\nÇalışmak için herhangi bir **yönetici iznine** ihtiyacım yok ( isteninceye kadar).\n\nAsistan Kullanıcı Adı:- @{1}\nAsistan Kimliği:- {2}"
 start_4 : "{0}'s Owner[{1}] sohbetinize katıldı."
 start_5 : "{0} adlı kullanıcının Sudo Kullanıcısının[{1}] bir üyesi sohbetinize az önce katıldı."
@@ -79,14 +79,14 @@ help_2 : "Yardım için PM'den bana ulaşın."
 # Settings
 setting_1 : "⚙️ **Müzik Botu Ayarları**\n\n🖇**Grup:** {0}\n🔖**Grup Kimliği:** `{1}`\n\n💡**Aşağıdan istediğiniz işlev butonlarını seçin düzenlemek veya değiştirmek için.**"
 setting_3 : "⁉️ Bu Nedir?\n\n1) Doğrudan: Arama sorgularını doğrudan oynatır. Videoları doğrudan modda oynatmak için -v kullanın.\n\n2) Satır İçi: Video ve ses arasında seçim yapmak için Satır İçi İşaretleme Düğmelerini döndürür."
-setting_4 : "⁉️ Bu Nedir?\n\n👥 Herkes: Bu grupta bulunan yönetici komutlarını (skip, pause, resume vb.) herkes kullanabilir.\n\n🙍 Yalnızca Yönetici: Yalnızca yöneticiler ve yetkili kullanıcılar yönetici komutlarını kullanabilir."
+setting_4 : "⁉️ Bu Nedir?\n\n👥 Herkes: Bu grupta bulunan yönetici komutlarını (atla, durdur, devam vb.) herkes kullanabilir.\n\n🙍 Yalnızca Yönetici: Yalnızca yöneticiler ve yetkili kullanıcılar yönetici komutlarını kullanabilir."
 setting_5 : "Yetkili Kullanıcı Bulunamadı\n\nYönetici olmayan herhangi bir kişinin /auth ile yönetici komutlarımı kullanmasına ve /unauth kullanarak kullanmamasına izin verebilirsiniz"
 setting_9 : "⁉️ Bu Nedir?\n\nEtkinleştirildiğinde Bot, sohbetinizi temiz ve anlaşılır kılmak için {0} tarihinden sonra mesajını siler.."
 setting_10 : "⁉️ Bu Nedir?\n\n1) Grup: Komutun verildiği gruptaki müziği çalar.\n\n2) Kanal: İstediğiniz kanaldaki müziği çalar. /channelplay ile kanal kimliğini ayarla"
 setting_11 : "⁉️ Bu Nedir?\n\n1) Herkes: Bu grupta bulunan herkes burada müzik çalabilir.\n\n2) Yalnızca Yönetici: Bu gruptaki müziği yalnızca yöneticiler çalabilir."
 setting_12 : "❌ Kanal modu için tanımlanmış kanal kimliğiniz yok. Lütfen /channelplay ile tanımlayın."
-setting_13 : "Etkin grup aramasında oynatma modu değiştirilemez. Lütfen önce /stop ile sesli sohbeti durdurun."
-setting_14 : "⁉️ Bu Nedir?\n\nEtkinleştirildiğinde, Bot yürütülen komutları (/play, /pause, /shuffle, /stop vb.) hemen siler.\n\nBot, bunun düzgün çalışması için admin hakkının mesajları sil yetkisi gerektirecektir.."
+setting_13 : "Etkin grup aramasında oynatma modu değiştirilemez. Lütfen önce /son ile sesli sohbeti durdurun."
+setting_14 : "⁉️ Bu Nedir?\n\nEtkinleştirildiğinde, Bot yürütülen komutları (/oynat, /durdur, /karistir, /son vb.) hemen siler.\n\nBot, bunun düzgün çalışması için admin hakkının mesajları sil yetkisi gerektirecektir.."
 setting_15 : "Eş çözümlenemedi, Kanalınıza bot eklediğinizden ve onu yönetici olarak terfi ettirdiğinizden emin olun.\n\n/channelplay'i tekrar ayarlamayı deneyin..."
 
 set_cb_1 : "Ses Kalitesi Panelini Alma..."
@@ -151,7 +151,7 @@ play_16 : "Parça ayrıntıları getirilemedi. başka şarkı dene."
 
 
 #Playlist
-playlist_1 : "**Kullanım:** /play [Müzik Adı veya Youtube Bağlantısı veya Sesi Yanıtla]\n\nBot'un Sunucu Oynatma Listesini oynatmak istiyorsanız! Aşağıdaki butona basın."
+playlist_1 : "**Kullanım:** /oynat [Müzik Adı veya Youtube Bağlantısı veya Sesi Yanıtla]\n\nBot'un Sunucu Oynatma Listesini oynatmak istiyorsanız! Aşağıdaki butona basın."
 playlist_2 : "Çalma listeniz alınıyor. Lütfen bekleyin"
 playlist_3 : "Bot Sunucusunda oynatma listeniz yok."
 playlist_4 : "Getirilen Oynatma Listesit:\n\n"
@@ -244,11 +244,11 @@ S_B_7 : "👤 Bot Owner"
 S_B_8 : "🔎 Nasıl kullanılır? Komutlar Menüsü."
 
 #Help 
-H_B_1 : "Admin Commands"
-H_B_2 : "Play Commands"
-H_B_3 : "Bot Commands"
-H_B_4 : "Extra Commands"
-H_B_5 : "Close Menu"
+H_B_1 : "Tüm Komutlar"
+H_B_2 : "Extra"
+H_B_3 : "Bilgi"
+H_B_4 : "🍀 Sahip"
+H_B_5 : "Menu Kapat"
 
 #PlayMode
 PM_B_1 : "DirectPlay"
@@ -256,10 +256,10 @@ PM_B_2 : "InlineMarkup"
 PM_B_3 : "ChannelPlay"
 
 #Play
-P_B_1 : "🎵 Play Audio"
-P_B_2 : "🎥 Play Video"
-P_B_3 : "🏮 Start Live Stream"
-P_B_4 : "🎵 Play Playlist"
+P_B_1 : "🎵 müzik çal "
+P_B_2 : "🎥 Video oynat"
+P_B_3 : "🏮 canlı yayın"
+P_B_4 : "🎵 playlist"
 
 #Playlist
 PL_B_1 : "🚀 Play Playlist"
@@ -300,11 +300,11 @@ ST_B_22 : "⏯ Play Mode"
 ST_B_23 : "🏘 Group"
 ST_B_24 : "🏷 Channel"
 ST_B_25 : "🫂 Play Type"
-ST_B_26 : "🗑 Command Clean"
+ST_B_26 : "🗑 komutları sil"
 
 #Song
 SG_B_1 : "↗️ Open Private Chat"
-SG_B_2 : "🔊 Audio"
+SG_B_2 : "🔊 ses"
 SG_B_3 : "🎥 Video"
 
 #Stats
