@@ -21,10 +21,10 @@ STATS_COMMAND : ["stats"]
 LANGUAGE_COMMAND : ["lang", "language", "langs"]
 
 # Play Commands
-PLAY_COMMAND : ["play", "vplay", "cplay", "playforce", "vplayforce", "cplayforce"]
+PLAY_COMMAND : ["play", "vplay", "cplay", "playforce", "vplayforce", "cplayforce", "oynat"]
 PLAYMODE_COMMAND : ["playmode"]
 CHANNELPLAY_COMMAND : ["channelplay"]
-STREAM_COMMAND : ["stream", "cstream", "streamforce"]
+STREAM_COMMAND : ["stream", "cstream", "streamforce", "izlet"]
 
 #Playlists Command
 PLAYLIST_COMMAND : ["playlist"]
@@ -33,7 +33,7 @@ DELETEPLAYLIST_COMMAND : ["deleteplaylist"]
 
 # Tools
 QUEUE_COMMAND : ["queue","cqueue"]
-SONG_COMMAND : ["song", "video"]
+SONG_COMMAND : ["song", "video", "bul"]
 LYRICS_COMMAND : ["lyrics"]
 
 
@@ -41,14 +41,14 @@ LYRICS_COMMAND : ["lyrics"]
 AUTH_COMMAND : ["auth"]
 UNAUTH_COMMAND : ["unauth"]
 AUTHUSERS_COMMAND : ["authusers"]
-PAUSE_COMMAND : ["pause", "cpause"]
-RESUME_COMMAND : ["resume", "cresume"]
-MUTE_COMMAND : ["mute", "cmute"]
-UNMUTE_COMMAND : ["unmute", "cunmute"]
-STOP_COMMAND : ["stop", "end", "cstop", "cend"]
-SKIP_COMMAND : ["skip", "cskip"]
-SHUFFLE_COMMAND : ["shuffle", "cshuffle"]
-LOOP_COMMAND : ["loop", "cloop"]
+PAUSE_COMMAND : ["pause", "cpause", "durdur"]
+RESUME_COMMAND : ["resume", "cresume", "devam"]
+MUTE_COMMAND : ["eme", "cmute"]
+UNMUTE_COMMAND : ["kksj", "cunmute"]
+STOP_COMMAND : ["stop", "end", "cstop", "cend", "son"]
+SKIP_COMMAND : ["skip", "cskip", "atla"]
+SHUFFLE_COMMAND : ["shuffle", "cshuffle", "karistir"]
+LOOP_COMMAND : ["loop", "cloop", "tekrarla"]
 
 
 # Sudo Users Commaands
@@ -59,7 +59,7 @@ DELSUDO_COMMAND : ["delsudo"]
 SUDOUSERS_COMMAND : ["sudolist"]
 
 #Broadcast 
-BROADCAST_COMMAND : ["broadcast"]
+BROADCAST_COMMAND : ["broadcast", "reklam"]
 
 #Blacklist chat
 BLACKLISTCHAT_COMMAND : ["blacklistchat"]
