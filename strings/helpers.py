@@ -23,6 +23,7 @@ HELP_1 = """✅**<u>Tüm Komutları:</u>**
 HELP_2 = """✅<u>**Extra:**</u>
 
 Bot bilgisi için ulaşın -  @meyitzade47
+"""
 
 HELP_3 = """✅<u>**Bilgi:**</u>
 
