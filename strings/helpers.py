@@ -20,9 +20,9 @@ HELP_1 = """✅**<u>Tüm Komutları:</u>**
 /izlet    - canlı yayın akışları oynatır.
 """
 
-HELP_2 = """✅<u>**Extra:**</u>
+HELP_2 = """✅<u>**Sahip:**</u>
 
-Bot bilgisi için ulaşın -  @meyitzade47
+Bot bilgisi için ulaşın -  @Zg_mali
 """
 
 HELP_3 = """✅<u>**Bilgi:**</u>
@@ -38,9 +38,6 @@ Reklam ve işbirliği için https://t.me/HirasetTR
 HELP_5 = """🔰**<u>Owner komutları :</u>**
 /addsudo [Username or Reply to a user]
 /delsudo [Username or Reply to a user]
-
-🛃**<u>HEROKU:</u>**
-/usage - Dyno Usage.
 
 🤖**<u>BOT COMMANDS:</u>**
 /restart - Restart Bot. 
@@ -89,6 +86,6 @@ HELP_5 = """🔰**<u>Owner komutları :</u>**
 **-assistant** : This will broadcast your message from assistant account of your bot.
 **-nobot** : This will force your bot to not broadcast message
 
-**Example:** `/broadcast -user -assistant -pin Hello Testing`
+**Example:** ` /reklam -user -assistant -pin Hello Testing`
 
 """
