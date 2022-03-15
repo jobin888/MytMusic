@@ -21,72 +21,75 @@ HELP_1 = """✅**<u>Tüm Komutları:</u>**
 /stream    - canlı yayın akışları oynatır.
 """
 
-HELP_2 = """✅<u>**Sahip:**</u>
+HELP_2 = """✅<u>**Sahipler:**</u>
 
+Bot bilgisi için ulaşın - @meyitzade
 Bot bilgisi için ulaşın -  @Zg_mali
 """
 
 HELP_3 = """✅<u>**Bilgi:**</u>
 
-/stats - Get Top 10 Tracks Global Stats, Top 10 Users of bot, Top 10 Chats on bot, Top 10 Played in a chat etc etc.
+Bot hakkında bilgi almak için - @hiraset
+/stats - En İyi 10 Parçayı Alın Global İstatistikler, Botun En İyi 10 Kullanıcısı, Botta En İyi 10 Sohbet, Sohbette Oynanan En İyi 10 vb..
 """
 
 HELP_4 = """✅<u>**Sahip/Reklam:**</u>
  
-Reklam ve işbirliği için https://t.me/HirasetTR
+Reklam ve işbirliği için @hiraset
+Reklam ve işbirliği için @HirasetTR
 """
 
 HELP_5 = """🔰**<u>Owner komutları :</u>**
-/addsudo [Username or Reply to a user]
-/delsudo [Username or Reply to a user]
+/addsudo [Kullanıcı adı veya bir kullanıcıyı yanıtla]
+/delsudo [Kullanıcı adı veya bir kullanıcıyı yanıtla]
 
 🤖**<u>BOT KOMUTLARI:</u>**
-/restart - Restart Bot. 
-/update - Update Bot.
-/speedtest - Check server speeds
+/restart - Botu Yeniden Başlat. 
+/update - Botu Güncelle.
+/speedtest - Sunucu hızlarını kontrol edin
 /maintenance [enable / disable] 
-/logger [enable / disable] - Bot logs the searched queries in logger group.
-/get_log [Number of Lines] - Get log of your bot from heroku or vps. Works for both.
+/logger [enable / disable] - Bot, logger grubundaki aranan sorguları günlüğe kaydeder.
+/get_log [Hat Sayısı] - Heroku veya vps'den botunuzun günlüğünü alın. Her ikisi için de çalışır.
 
 📈**<u>STATS KOMUTLARI:</u>**
-/activevoice - Check active voice chats on bot.
-/activevideo - Check active video calls on bot.
-/stats - Check Bots Stats
+/activevoice - Botta aktif sesli sohbetleri kontrol edin.
+/activevideo - Botta aktif görüntülü aramaları kontrol edin.
+/stats - Bot İstatistiklerini Kontrol Edin
 
 ⚠️**<u>KARA LİSTE SOHBET FONKSİYONU:</u>**
-/blacklistchat [CHAT_ID] - Blacklist any chat from using Music Bot
-/whitelistchat [CHAT_ID] - Whitelist any blacklisted chat from using Music Bot
-/blacklistedchat - Check all blacklisted chats.
+/blacklistchat [CHAT_ID] - Music Bot kullanarak herhangi bir sohbeti kara listeye alın
+/whitelistchat [CHAT_ID] - Music Bot'u kullanarak kara listeye alınmış herhangi bir sohbeti beyaz listeye alın
+/blacklistedchat - Kara listeye alınan tüm sohbetleri kontrol edin.
 
 👤**<u>ENGELLİ FONKSİYON:</u>**
-/block [Username or Reply to a user] - Prevents a user from using bot commands.
-/unblock [Username or Reply to a user] - Remove a user from Bot's Blocked List.
-/blockedusers - Check blocked Users Lists
+/block [Kullanıcı adı veya kullanıcıya yanıt] - Bir kullanıcının bot komutlarını kullanmasını engeller.
+/unblock [Kullanıcı adı veya kullanıcıya yanıt] - Bir kullanıcıyı Bot'un Engellenenler Listesinden kaldırma.
+/blockedusers - Engellenen Kullanıcı Listelerini Kontrol Edin
 
 👤**<u>GBAN FONKSİYONU:</u>**
-/gban [Username or Reply to a user] - Gban a user from bot's served chat and stop him from using your bot.
-/ungban [Username or Reply to a user] - Remove a user from Bot's gbanned List and allow him for using your bot
-/gbannedusers - Check Gbanned Users Lists
+/gban [Kullanıcı adı veya kullanıcıya yanıt] - Botun sunduğu sohbetten bir kullanıcıyı Gban ve botunuzu kullanmasını engelleyin.
+/ungban [Kullanıcı adı veya kullanıcıya yanıt] - Bir kullanıcıyı Bot'un gbanlı Listesinden çıkarın ve onun botunuzu kullanmasına izin verin
+/gbannedusers - Gbanlı Kullanıcı Listelerini Kontrol Edin
 
 🎥**<u>VİDEO ÇAĞRISI İŞLEVİ:</u>**
-/set_video_limit [Number of Chats] - Set a maximum Number of Chats allowed for Video Calls at a time. Default to 3 chats.
-/videomode [download|m3u8] - If download mode is enabled, Bot will download videos instead of playing them in M3u8 form. ByDefault to M3u8. You can use download mode when any query doesnt plays in m3u8 mode.
+/set_video_limit [Sohbet Sayısı] - Bir seferde Görüntülü Aramalar için izin verilen maksimum Sohbet Sayısını ayarlayın. Varsayılan olarak 3 sohbet.
+/videomode [download|m3u8] - İndirme modu etkinleştirilirse Bot, videoları M3u8 biçiminde oynatmak yerine indirecektir. Varsayılan olarak M3u8'e. Herhangi bir sorgu m3u8 modunda oynatılmadığında indirme modunu kullanabilirsiniz..
 
 ⚡️**<u>ÖZEL BOT FONKSİYONU:</u>**
-/authorize [CHAT_ID] - Allow a chat for using your bot.
-/unauthorize [CHAT_ID] - Disallow a chat from using your bot.
-/authorized - Check all allowed chats of your bot.
+/authorize [CHAT_ID] - Botunuzu kullanmak için bir sohbete izin verin.
+/unauthorize [CHAT_ID] - Bir sohbetin botunuzu kullanmasına izin vermeyin.
+/authorized - Botunuzun izin verilen tüm sohbetlerini kontrol edin.
 
 🌐**<u>YAYIN FONKSİYONU:</u>**
-/reklam [Message or Reply to a Message] - Broadcast any message to Bot's Served Chats.
+/reklam [Mesaj Gönder veya Mesaja Cevap Ver] - Bot'un Sunulan Sohbetlerine herhangi bir mesaj yayınlayın.
 
 <u>yayın seçenekleri:</u>
-**-pin** : This will pin your message 
-**-pinloud** : This will pin your message with loud notification
-**-user** : This will broadcast your message to the users who have started your bot.
-**-assistant** : This will broadcast your message from assistant account of your bot.
-**-nobot** : This will force your bot to not broadcast message
+**-pin** : Bu, mesajınızı sabitleyecektir 
+**-pinloud** : Bu, mesajınızı yüksek sesli bildirimle sabitleyecektir
+**-user** : Bu, mesajınızı botunuzu başlatan kullanıcılara yayınlayacaktır..
+**-assistant** : Bu, mesajınızı botunuzun asistan hesabından yayınlayacaktır.
+**-nobot** : Bu, botunuzu mesaj yayınlamamaya zorlar
 
-**Example:** ` /reklam -user -assistant -pin Hello Testing`
+**Örnek :** ` /reklam -user -assistant -pin Merhaba Test'
 
 """
